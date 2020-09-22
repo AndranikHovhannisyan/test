@@ -1,6 +1,3 @@
-
-
-
 set -e
 echo -n "Checking if there are uncommited changes... "
 trap 'echo -e "\033[0;31mCHANGED\033[0m"' ERR
